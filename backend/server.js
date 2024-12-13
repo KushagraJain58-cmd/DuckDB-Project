@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 // const duckdb = require('duckdb');
 const  {DuckDBInstance} = require('@duckdb/node-api');
 
-const port = process.env.PORT || 3001;
+const port = 3001;
 const app = express();
 
 app.use(bodyParser.json());
