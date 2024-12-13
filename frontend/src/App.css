@@ -1,0 +1,128 @@
+body {
+  background-color: #111; /* Darker background color */
+  color: #eee; /* Lighter text color */
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #eee; /* Lighter text color */
+}
+button {
+  cursor: pointer;
+}
+.addData {
+  margin: 3rem;
+}
+
+.mail {
+  background-color: rgba(74, 74, 74, 0.8);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+}
+
+.op button {
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #eee; /* Lighter text color */
+  font-size: 1.6rem;
+  background-color: rgba(17, 25, 40, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.mail button {
+  font-size: 1.2rem;
+}
+
+.table-container {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 8px;
+  border: 1px solid #ddd;
+  color: #eee; /* Lighter text color */
+}
+
+.table-container th {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #333; /* Darker background color */
+}
+
+.table-container tr:hover {
+  background-color: #555; /* Darker hover background color */
+}
+.op2 {
+  display: flex;
+  justify-content: space-between;
+}
+.op2 button {
+  padding: 7px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #eee; /* Lighter text color */
+  font-size: 1rem;
+  background-color: rgba(17, 25, 40, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.whole {
+  display: flex;
+  column-gap: 10rem;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color:#111111da;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  background-color:#111111da;
+  padding: 20px;
+  color: #fff;
+}
+.form button {
+  margin-top: 5rem;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #eee; /* Lighter text color */
+  font-size: 2rem;
+  background-color: rgba(17, 25, 40, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+   color: #fff;
+}
+
+.modal {
+  color: #000;
+   color: #fff;
+}
+.modal h1 {
+  color: #000;
+ background-color:#111111da;
+   color: #fff;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 1.8rem;
+  padding: 8px;
+}
+
+td input {
+  cursor: pointer;
+}
+
+.checkbox input {
+  font-size: 10px;
+}
